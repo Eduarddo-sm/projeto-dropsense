@@ -2,6 +2,9 @@
 
 Sistema IoT para monitoramento e controle automático da umidade em ambientes internos, utilizando ESP32/ESP8266, sensor DHT22 e um mini umidificador ultrassônico acionado via MOSFET. O objetivo do projeto é proporcionar ambientes mais saudáveis ao detectar níveis baixos de umidade e acionar automaticamente um umidificador.
 
+<img width="2845" height="1637" alt="a" src="https://github.com/user-attachments/assets/d7ed33d6-b585-4974-bebe-faf9240e9829" />
+
+
 ---
 
 ## Visão Geral

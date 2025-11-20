@@ -1,0 +1,74 @@
+[
+    {
+        "id": "4a191ac972fee2c4",
+        "type": "ui_chart",
+        "z": "3371ff1a61bb4384",
+        "name": "Histórico Umidade",
+        "group": "30348be00f0ae5d4",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "label": "Umidade (últimos 10 min)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Aguardando dados...",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#2a9d8f",
+            "#000000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#ff0000",
+            "#9467bd",
+            "#c5b0d5",
+            "#d62728",
+            "#ff9896"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 860,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30348be00f0ae5d4",
+        "type": "ui_group",
+        "name": "Histórico",
+        "tab": "02462ca4802668a1",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "02462ca4802668a1",
+        "type": "ui_tab",
+        "name": "Monitoramento de Ambiente",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e8921a0b968fbe70",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
